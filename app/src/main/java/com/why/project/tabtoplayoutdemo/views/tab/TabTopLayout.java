@@ -58,7 +58,7 @@ public class TabTopLayout extends LinearLayout {
 
 
 		//设置要添加的子布局view的参数
-		LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
+		LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.MATCH_PARENT);
 		params.weight = 1;//在tab_bottom_item文件的根节点RelativeLayout中是无法添加的，而这个是必须要写上的，否则只会展现一个view
 		params.gravity = Gravity.CENTER;
 
